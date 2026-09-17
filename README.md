@@ -1,0 +1,92 @@
+# Andro-Kontrol
+
+**Maneja el móvil hablando y moviendo la cabeza.** Pensado para quien no puede
+usar las manos, o no siempre.
+
+- **Un puntero** que se mueve con la cara: la cámara frontal sigue tu nariz.
+  También se puede mover **por voz**, con las direcciones de la brújula
+  («norte», «este cincuenta»…).
+- **Comandos de voz** para todo lo demás: pulsar, pulsación larga, atrás,
+  inicio, recientes, desplazar, abrir apps, cerrar, salir, pestañas… y los
+  botones de cualquier app por su nombre («enviar», «buscar», «pulsa
+  descargar»).
+- **Dictado**: cuando aparece el cursor en un campo de texto, dictas y dices
+  «entra» para escribirlo. El teclado del sistema no hace falta.
+- **Se aparta durante las llamadas** y vuelve al colgar: el móvil sigue siendo
+  un teléfono.
+
+> **Esto es una alpha.** Funciona y se usa a diario en el móvil de pruebas
+> (Motorola Moto G31, Android 12), pero está en desarrollo: espera fallos, y
+> cosas que cambian de una versión a otra.
+
+## Descarga
+
+La versión de cada momento está en la pestaña
+[**Releases**](../../releases). Más información y explicación en
+[pipataki.net](https://pipataki.net/andro-kontrol.html).
+
+**Para instalarla:** descarga la APK en el móvil y ábrela con **Archivos
+(Files) de Google**. Android pedirá permiso para instalar apps de origen
+desconocido, y Play Protect puede analizarla antes; es lo normal en cualquier
+app que no venga de Google Play.
+
+Con algunos gestores de archivos Android no permite instalar: no es cosa de
+Andro-Kontrol, es que la app que abre el fichero necesita el permiso de
+instalar aplicaciones.
+
+### Comprobar que la APK es la nuestra
+
+Firma del certificado con el que se firman todas las versiones:
+
+```
+SHA-256: 40:EA:E6:CA:4A:6C:CE:5D:38:D6:61:A4:8D:9B:64:18:25:4F:01:3E:D7:75:83:4A:98:3B:E9:82:73:AF:C2:29
+```
+
+## Qué necesita
+
+- Android 8 o superior, procesador ARM de 64 bits.
+- **Permisos**, que se conceden desde la propia app (menú ⋮ → Ajustes):
+  - **servicio de accesibilidad**: es lo que dibuja el puntero y pulsa por ti;
+  - **cámara**: para seguir la nariz;
+  - **micrófono**: para los comandos y el dictado;
+  - **teléfono**: para apartarse cuando entra una llamada;
+  - **modificar ajustes del sistema**: para mantener la pantalla en vertical
+    mientras está encendida.
+
+## Privacidad
+
+- **La imagen de la cámara no sale del teléfono.** La cara se analiza ahí
+  mismo y de ella solo sale una posición para el puntero.
+- **Los comandos de voz se reconocen en el propio teléfono**, sin conexión.
+- **El dictado usa el reconocedor de voz del sistema.** En el móvil de pruebas
+  funcionó sin conexión, pero eso depende del teléfono y de su configuración.
+- Andro-Kontrol **no envía nada a ningún servidor** y no lleva publicidad ni
+  medición de uso.
+
+## Licencia
+
+Andro-Kontrol es **© 2026 pipataki. Todos los derechos reservados.** Este
+repositorio contiene solo las descargas: el código fuente no se publica.
+
+Lleva dentro componentes de terceros con licencia **Apache 2.0**, a los que hay
+que dar crédito:
+
+| Componente | Autor |
+|---|---|
+| Vosk (vosk-android) y el modelo `vosk-model-small-es-0.42` | Alpha Cephei Inc. / AC Technologies LLC |
+| MediaPipe Tasks Vision y el modelo `face_landmarker.task` | Google LLC |
+| AndroidX CameraX | The Android Open Source Project |
+| JNA | Java Native Access project |
+
+El robot del icono es un dibujo propio: no es el androide de Google.
+
+## Contacto
+
+[pipataki@pipataki.net](mailto:pipataki@pipataki.net)
+
+También puedes abrir un [issue](../../issues) para contar un fallo o pedir algo.
+
+---
+
+Hay un proyecto hermano para el ordenador, **VoiceController** (software libre,
+LGPLv3): [github.com/pipataki/VoiceController](https://github.com/pipataki/VoiceController).
