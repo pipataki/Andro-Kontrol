@@ -21,9 +21,35 @@ usar las manos, o no siempre.
   y vuelve cuando ella termina de hablar, así no confunde su voz con órdenes
   tuyas. La música no le afecta.
 
+- **Bloqueo por voz** (opcional, y viene apagado): un candado que solo abre tu
+  voz diciendo tu santo y seña. Si no te reconoce, manda el móvil a su pantalla
+  de bloqueo. Lee el aviso de más abajo antes de encenderlo.
+
 > **Esto es una beta.** Se usa a diario en el móvil de pruebas (Motorola Moto
 > G31, Android 12), pero sigue en desarrollo: espera fallos y cosas que cambian
 > de una versión a otra. Si encuentras alguno, se agradece el aviso.
+
+## Aviso sobre el bloqueo por voz
+
+**Encenderlo es decisión tuya, y el riesgo también.** Úsalo con precaución y
+sabiendo lo que hace y lo que no:
+
+- **No es seguridad fuerte.** Una voz se puede grabar e imitar, y el parecido
+  se mide con un margen. Quien guarda el móvil de verdad es su propio bloqueo
+  (huella, PIN o patrón): esto es una capa más encima, nunca un sustituto.
+- **Puede no reconocerte**: si exiges mucho parecido, si estás afónico, si hay
+  ruido o si el micrófono está tapado. No te deja sin móvil —sigues entrando
+  con tu huella o tu PIN y puedes apagar Andro-Kontrol con su botón—, pero
+  incordia.
+- **Manda el móvil a la pantalla de bloqueo** en cada intento que no reconoce,
+  y cuando se cumplen las esperas.
+
+Se enciende, se apaga y se ajusta en **⋮ → Ajustes → Bloqueo por voz**, con
+Andro-Kontrol apagado: allí se graba el perfil de voz y el santo y seña, se
+marca o desmarca la casilla, y se ajustan el parecido exigido (de partida
+38 %, con tope 47 % para que no puedas dejarte fuera) y las dos esperas
+—candado abierto, 7-10 minutos sin oírte; candado cerrado, 30-60 segundos,
+hables o no—. El manual lo explica entero.
 
 ## Descarga
 
@@ -58,6 +84,8 @@ SHA-256: 40:EA:E6:CA:4A:6C:CE:5D:38:D6:61:A4:8D:9B:64:18:25:4F:01:3E:D7:75:83:4A
   - **cámara**: para seguir la nariz;
   - **micrófono**: para los comandos y el dictado;
   - **teléfono**: para apartarse cuando entra una llamada;
+  - **responder llamadas**: para descolgar y colgar hablando;
+  - **llamar y agenda**: para llamar a un contacto diciendo su nombre;
   - **modificar ajustes del sistema**: para mantener la pantalla en vertical
     mientras está encendida.
 
@@ -81,7 +109,7 @@ que dar crédito:
 
 | Componente | Autor |
 |---|---|
-| Vosk (vosk-android) y el modelo `vosk-model-small-es-0.42` | Alpha Cephei Inc. / AC Technologies LLC |
+| Vosk (vosk-android) y los modelos `vosk-model-small-es-0.42` y `vosk-model-spk-0.4` | Alpha Cephei Inc. / AC Technologies LLC |
 | MediaPipe Tasks Vision y el modelo `face_landmarker.task` | Google LLC |
 | AndroidX CameraX | The Android Open Source Project |
 | JNA | Java Native Access project |
