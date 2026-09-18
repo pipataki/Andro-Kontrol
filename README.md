@@ -12,18 +12,26 @@ usar las manos, o no siempre.
   descargar»).
 - **Dictado**: cuando aparece el cursor en un campo de texto, dictas y dices
   «entra» para escribirlo. El teclado del sistema no hace falta.
-- **Se aparta durante las llamadas** y vuelve al colgar: el móvil sigue siendo
-  un teléfono.
+- **El teléfono por voz**: «responde», «cuelga», «llama a Marta». Mientras
+  suena el tono sigue encendido; con la llamada descolgada se aparta, y vuelve
+  en los silencios para que puedas colgar hablando.
+- **WhatsApp**: «guasea a Marta» abre su chat y ya puedes dictar el mensaje.
+- **Música y vídeo**: reproduce, pausa, siguiente canción, volumen…
+- **Convive con tu asistente**: si dices «alexa», Andro-Kontrol se apaga solo
+  y vuelve cuando ella termina de hablar, así no confunde su voz con órdenes
+  tuyas. La música no le afecta.
 
-> **Esto es una alpha.** Funciona y se usa a diario en el móvil de pruebas
-> (Motorola Moto G31, Android 12), pero está en desarrollo: espera fallos, y
-> cosas que cambian de una versión a otra.
+> **Esto es una beta.** Se usa a diario en el móvil de pruebas (Motorola Moto
+> G31, Android 12), pero sigue en desarrollo: espera fallos y cosas que cambian
+> de una versión a otra. Si encuentras alguno, se agradece el aviso.
 
 ## Descarga
 
 La versión de cada momento está en la pestaña
 [**Releases**](../../releases). Más información y explicación en
 [pipataki.net](https://pipataki.net/andro-kontrol.html).
+
+También hay **manual en PDF**, en español e inglés, en cada release.
 
 **Para instalarla:** descarga la APK en el móvil y ábrela con **Archivos
 (Files) de Google**. Android pedirá permiso para instalar apps de origen
