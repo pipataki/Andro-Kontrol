@@ -15,6 +15,9 @@ usar las manos, o no siempre.
 - **El teléfono por voz**: «responde», «cuelga», «llama a Marta». Mientras
   suena el tono sigue encendido; con la llamada descolgada se aparta, y vuelve
   en los silencios para que puedas colgar hablando.
+- **Ir a un sitio**: «conduce a la playa», «pasea a la farmacia», «pasea en
+  bici al parque». Se lo pasa a tu app de navegación con el medio ya elegido, y
+  si la ubicación está apagada la enciende él. Para terminar, «salir».
 - **WhatsApp**: «guasea a Marta» abre su chat y ya puedes dictar el mensaje.
 - **Música y vídeo**: reproduce, pausa, siguiente canción, volumen…
 - **Convive con tu asistente**: si dices «alexa», Andro-Kontrol se apaga solo
