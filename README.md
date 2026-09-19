@@ -98,6 +98,10 @@ SHA-256: 40:EA:E6:CA:4A:6C:CE:5D:38:D6:61:A4:8D:9B:64:18:25:4F:01:3E:D7:75:83:4A
   funcionó sin conexión, pero eso depende del teléfono y de su configuración.
 - Andro-Kontrol **no envía nada a ningún servidor** y no lleva publicidad ni
   medición de uso.
+- **No deja rastro de lo que oye.** El registro del móvil (`adb logcat`) viene
+  apagado; solo apunta órdenes, dictado y nombres de contactos si enciendes a
+  propósito *Registro para pruebas*, en ⋮ → Ajustes → Pruebas, para buscar un
+  fallo. Los errores sí se apuntan siempre, y no llevan lo que has dicho.
 
 ## Licencia
 
