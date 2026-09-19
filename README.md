@@ -28,10 +28,16 @@ usar las manos, o no siempre.
   voz diciendo tu santo y seña. Si no te reconoce, manda el móvil a su pantalla
   de bloqueo, y puede tapar la pantalla mientras está cerrado. Lee el aviso de
   más abajo antes de encenderlo.
+- **Calibración del micrófono**: cada móvil entrega la voz a un volumen
+  distinto y Android no deja subir la entrada, así que Andro-Kontrol la mide en
+  el tuyo (unos segundos callado y otros hablando) y la compensa. Se nota
+  mucho: en el móvil de pruebas la voz entra seis veces por debajo de lo que le
+  va bien al reconocedor. Está en ⋮ → Ajustes → Micrófono, y se puede trastear
+  a mano.
 - **El puntero se puede esconder** sin apagarlo: «oculta el puntero» deja de
   dibujarlo, pero sigue moviéndose, pulsando y desplazando la pantalla.
 
-> **Versión 1.0.** Se usa a diario y está probada en un Motorola Moto G31 con
+> **Versión 1.1.** Se usa a diario y está probada en un Motorola Moto G31 con
 > Android 12. En otros móviles puede haber diferencias, sobre todo en lo que
 > depende del fabricante (los ajustes de ubicación, por ejemplo). Si encuentras
 > un fallo, se agradece el aviso.
