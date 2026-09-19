@@ -26,11 +26,15 @@ usar las manos, o no siempre.
 
 - **Bloqueo por voz** (opcional, y viene apagado): un candado que solo abre tu
   voz diciendo tu santo y seña. Si no te reconoce, manda el móvil a su pantalla
-  de bloqueo. Lee el aviso de más abajo antes de encenderlo.
+  de bloqueo, y puede tapar la pantalla mientras está cerrado. Lee el aviso de
+  más abajo antes de encenderlo.
+- **El puntero se puede esconder** sin apagarlo: «oculta el puntero» deja de
+  dibujarlo, pero sigue moviéndose, pulsando y desplazando la pantalla.
 
-> **Esto es una beta.** Se usa a diario en el móvil de pruebas (Motorola Moto
-> G31, Android 12), pero sigue en desarrollo: espera fallos y cosas que cambian
-> de una versión a otra. Si encuentras alguno, se agradece el aviso.
+> **Versión 1.0.** Se usa a diario y está probada en un Motorola Moto G31 con
+> Android 12. En otros móviles puede haber diferencias, sobre todo en lo que
+> depende del fabricante (los ajustes de ubicación, por ejemplo). Si encuentras
+> un fallo, se agradece el aviso.
 
 ## Aviso sobre el bloqueo por voz
 
@@ -47,12 +51,17 @@ sabiendo lo que hace y lo que no:
 - **Manda el móvil a la pantalla de bloqueo** en cada intento que no reconoce,
   y cuando se cumplen las esperas.
 
+Con Andro-Kontrol apagado no hay candado: ni se bloquea ni se ve, porque
+apagado no escucha y no habría forma de abrirlo hablando.
+
 Se enciende, se apaga y se ajusta en **⋮ → Ajustes → Bloqueo por voz**, con
 Andro-Kontrol apagado: allí se graba el perfil de voz y el santo y seña, se
 marca o desmarca la casilla, y se ajustan el parecido exigido (de partida
-38 %, con tope 47 % para que no puedas dejarte fuera) y las dos esperas
-—candado abierto, 7-10 minutos sin oírte; candado cerrado, 30-60 segundos,
-hables o no—. El manual lo explica entero.
+38 %, con tope 47 % para que no puedas dejarte fuera) y si quieres que **tape la
+pantalla** mientras está cerrado —pantalla negra con el candado grande; la
+salida, si la voz fallara, es mantener el candado pulsado 5 segundos, que no
+abre el móvil: apaga Andro-Kontrol y lo manda a su pantalla de bloqueo—. El
+manual lo explica entero.
 
 ## Descarga
 
