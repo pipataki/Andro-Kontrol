@@ -54,8 +54,10 @@ sabiendo lo que hace y lo que no:
   ruido o si el micrófono está tapado. No te deja sin móvil —sigues entrando
   con tu huella o tu PIN y puedes apagar Andro-Kontrol con su botón—, pero
   incordia.
-- **Manda el móvil a la pantalla de bloqueo** en cada intento que no reconoce,
-  y cuando se cumplen las esperas.
+- **Manda el móvil a la pantalla de bloqueo** en cada intento que no reconoce
+  como tuyo.
+- **Sin tapar la pantalla protege poco**: el candado cerrado impide que
+  Andro-Kontrol obedezca, pero el móvil se sigue pudiendo usar con el dedo.
 
 Con Andro-Kontrol apagado no hay candado: ni se bloquea ni se ve, porque
 apagado no escucha y no habría forma de abrirlo hablando.
@@ -88,7 +90,11 @@ instalar aplicaciones.
 
 ### Comprobar que la APK es la nuestra
 
-Firma del certificado con el que se firman todas las versiones:
+**Huella pública del certificado** con el que se firman todas las versiones.
+Sirve para comprobar que la APK que te has descargado es la nuestra y no una
+modificada por otro; no es una clave secreta, es el equivalente al número de
+serie del sello. Se mira con
+`apksigner verify --print-certs Andro-Kontrol-<versión>.apk`:
 
 ```
 SHA-256: 40:EA:E6:CA:4A:6C:CE:5D:38:D6:61:A4:8D:9B:64:18:25:4F:01:3E:D7:75:83:4A:98:3B:E9:82:73:AF:C2:29
