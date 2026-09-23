@@ -34,10 +34,17 @@ usar las manos, o no siempre.
   mucho: en el móvil de pruebas la voz entra seis veces por debajo de lo que le
   va bien al reconocedor. Está en ⋮ → Ajustes → Micrófono, y se puede trastear
   a mano.
-- **El puntero se puede esconder** sin apagarlo: «oculta el puntero» deja de
-  dibujarlo, pero sigue moviéndose, pulsando y desplazando la pantalla.
+- **El puntero arranca escondido**, para no taparte lo que estás mirando, y
+  sigue moviéndose, pulsando y desplazando la pantalla igual. Con «muestra el
+  puntero» se ve; con «oculta el puntero», se esconde otra vez.
+- **El dictado pone los signos.** Las comas y los puntos salen de tus pausas,
+  sin decir nada. Los que dependen del significado —dos puntos, comillas,
+  paréntesis— se dicen, porque quien sabe dónde van es quien habla. Y hay
+  reglas para no meterlos donde no van: nunca detrás de una preposición ni
+  delante de una conjunción, y al enumerar los respiros entre elementos se
+  convierten en comas.
 
-> **Versión 1.1.** Se usa a diario y está probada en un Motorola Moto G31 con
+> **Versión 1.2.** Se usa a diario y está probada en un Motorola Moto G31 con
 > Android 12. En otros móviles puede haber diferencias, sobre todo en lo que
 > depende del fabricante (los ajustes de ubicación, por ejemplo). Si encuentras
 > un fallo, se agradece el aviso.
