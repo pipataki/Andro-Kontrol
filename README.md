@@ -44,7 +44,14 @@ usar las manos, o no siempre.
   delante de una conjunción, y al enumerar los respiros entre elementos se
   convierten en comas.
 
-> **Versión 1.2.** Se usa a diario y está probada en un Motorola Moto G31 con
+- **Nombres que no hay manera de dictar.** Di la orden a secas —«llama a»,
+  «conduce a»— y Andro-Kontrol te pregunta a quién o a dónde, escuchando esa
+  parte con el reconocedor de Android, que escribe nombres propios mucho mejor.
+  Mientras hablas, **tu listín se filtra en el panel** y puedes tocar el que
+  es. Y en Ajustes puedes ponerle a un contacto o a una dirección **el nombre
+  que tú dices**, sin tocar nada de tu agenda.
+
+> **Versión 1.3.** Se usa a diario y está probada en un Motorola Moto G31 con
 > Android 12. En otros móviles puede haber diferencias, sobre todo en lo que
 > depende del fabricante (los ajustes de ubicación, por ejemplo). Si encuentras
 > un fallo, se agradece el aviso.
